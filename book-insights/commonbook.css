@@ -6,6 +6,13 @@ body {
     max-width: 794px;
     margin: auto;
 }
+
+@media (max-width: 375) {
+    #im01 {
+        display: none;
+    }
+}
+
 /* HEADER SECTION */
 .title {
     background-color: #1B4242;

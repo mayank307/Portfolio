@@ -12,9 +12,17 @@ body {
     color: #5C8374
 }
 
+.img01 {
+    position: fixed;
+    left: 35px;
+    top: 200px;
+}
+
 
 
 /* BODY SECTION */
+
+
 .para01 {
     color: #9EC8B9;
 }

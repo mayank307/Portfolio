@@ -4,5 +4,34 @@
     margin: 0px;
 }
 body {
-
+    background-color: #053B50;
+    color: #EEEEEE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 794px;
+    margin: auto;
+    text-decoration: none;
 }
+
+h1 {
+    font-size: 150px;
+}
+
+
+/* this is Index content section or the body */
+.index_content {
+    
+    position: relative;
+    top: 40px;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+/* colors : (dark to light)
+#053B50
+#176B87
+#64CCC5
+#EEEEEE
+*/
+

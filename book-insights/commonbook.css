@@ -1,0 +1,34 @@
+/* this would be the common css page for all the books
+book01 - book0n */
+body {
+    background-color: #092635;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 794px;
+    margin: auto;
+}
+/* HEADER SECTION */
+.title {
+    background-color: #1B4242;
+    color: #5C8374
+}
+
+
+
+/* BODY SECTION */
+.para01 {
+    color: #9EC8B9;
+}
+
+
+
+
+
+/* FOOTER SECTION */
+
+
+/* colors : (dark to light)
+#092635
+#1B4242
+#5C8374
+#9EC8B9  
+*/

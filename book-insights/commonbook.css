@@ -7,7 +7,7 @@ body {
     margin: auto;
 }
 
-@media (max-width: 375) {
+@media (min-width: 0px) and (max-width: 374px) {
     #im01 {
         display: none;
     }

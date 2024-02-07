@@ -5,6 +5,7 @@ body {
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     max-width: 794px;
     margin: auto;
+    
 }
 
 @media (min-width: 0px) and (max-width: 374px) {
@@ -23,8 +24,13 @@ body {
 
 /* HEADER SECTION */
 .title {
-    background-color: #1B4242;
-    color: #5C8374
+    
+    color: #5C8374;
+   
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
 }
 
 .img01 {
@@ -38,6 +44,10 @@ body {
     top: 200px;
     
 }
+.background_heading {
+    background-color: #1B4242;
+}
+
 
 
 
@@ -46,6 +56,14 @@ body {
 
 .para01 {
     color: #9EC8B9;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.chap_no {
+    color: #5C8374;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -54,6 +72,33 @@ body {
 
 /* FOOTER SECTION */
 
+.footer01{ 
+    position: fixed;
+    bottom: 0px;
+    background-color: #273248;
+    padding: 1px;
+    font-family: sans-serif;
+    width: 100%;
+    max-height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card01 {
+    background-color: #AF4F41;
+    opacity: 0.4;
+    position: absolute;
+    width: 90%;
+    
+    
+}
+.other_ref01 {
+    color: #F9982F;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: 1;
+    
+}
 
 /* colors : (dark to light)
 #092635

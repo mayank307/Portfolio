@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Mayank Kumar">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a href="https://medium.com/@mayankmunner" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-medium"></i>
+					</span>
+				</a>
+				<a href="https://github.com/mayank307" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a href="twitter/mayank" class="nav-item">
+					<span class="icon">
+						<i class="fa fa-twitter"></i>
+					</span>
+				</a>				
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+				
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/avatar.jpeg">
+			</div>
+			<div class="container"></br>
+				<h3 style="font-size: large;">Mayank Kumar</h3>
+				<p class="intro">
+					As a skilled web developer and meticulous data analyst, I am driven by a passion for technology and a commitment to excellence. With a diverse background in both fields, I bring a unique perspective and a comprehensive skill set to every project. Whether I'm crafting captivating websites or delving deep into data to uncover valuable insights, my goal is always the same: to exceed expectations and drive success for my clients. With a keen eye for detail, a relentless pursuit of innovation, and a dedication to continuous learning, I am ready to tackle any challenge and bring your digital vision to life.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+				
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/twitteranalysis.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>
+									<h2>Twitter Sentiment Analyzer</h2>			
+									<p>
+										Leveraging natural language processing to analyze Twitter data, offering valuable insights into public sentiment on diverse topics.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<div class="box project-text">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/forecast.png" alt="Image">
+									</figure>
+								</div>
+								<div>
+									<h3>QuantyFi - Finance Analysis Dashboard</h3>			
+									<p>
+										Dynamic dashboard showcasing financial metrics and trends for informed decision-making and strategic planning within organizations.
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">					
+					<h3 class="title is-3">Let's Connect</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://www.linkedin.com/in/mayank221999/"><img class="" src="assets/img/linkedin.png" style="height: 50px;"></a>
+					</div>
+					<div class="column is-6 has-text-centered">
+						<a target="_blank" href="https://auth.geeksforgeeks.org/user/mayankmunner"><img class="" src="assets/img/gfglogo.png" style="height: 50px;"></a>
+					</div>
+					
+					
+				</div>
+			</div>
+		</section>	
+		
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="index.html">Mayank Kumar</a>
+		</section>
+		
+		<!-- Scripts  -->
+		<script src="controller.js"></script>		
+	</body>	
+</html>
